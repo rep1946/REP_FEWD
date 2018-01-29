@@ -1,0 +1,188 @@
+/*-------Global Styles-------------*/
+
+h1, h2, h3, h4{
+	font-family: "abolition",sans-serif;
+	font-style: normal;
+	font-weight: 400;
+}
+
+
+h1 {
+	font-size: 72px;
+	line-height: 80px;
+}
+
+
+h2 {
+	font-size: 54px;
+}
+
+p {
+	font-size: 1em;
+	line-height: 1.75em;
+	font-family: "usual",sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	letter-spacing: .05em;
+}
+
+
+body {
+	margin: 0px;
+}
+
+/*-------Nav---------*/
+header{
+	background-color: rgba(26, 26, 28, .95);
+	width: auto;
+	height: 130px;
+}
+
+
+.NavLogo{
+	margin: 10px;
+	position: absolute;
+}
+
+.MainNav{
+	width: 65%;
+	float: right;
+	margin: 50px;
+	text-align: right;
+}
+
+nav .MainNav li{
+	display: inline-block;
+	margin: auto;
+}
+
+nav .MainNav li:nth-child(-n+4) {
+	margin-right: 70px;
+}
+
+.MainNav li a{
+	color: 	rgba(241, 228, 178, .8);
+	font-family: "usual",sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1em;
+	letter-spacing: .05em;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+
+.MainNav li a:hover{
+	color: 	rgba(196, 72, 27, .8);
+	font-family: "usual",sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 1.063em;
+	letter-spacing: .07em;
+	text-decoration: none;
+	text-transform: uppercase;
+	transition-property: width, height, font-size, font-weight, background-color;  
+	transition-duration: 0.2s;
+	transition-timing-function: cubic-bezier(0.1, 0.1, 0.1, 0.1);
+	transition-delay: 0s;  
+}
+
+
+/*------Footer---------*/
+
+footer {
+	background-color: rgb(26, 26, 28);
+}
+
+
+
+nav .footerContainer{
+text-align: center;
+
+}
+
+
+nav .social_links li{
+	display: -webkit-inline-flex;
+	display: -moz-inline-flex;
+	display: -ms-inline-flex;
+	display: -o-inline-flex;
+	display: inline-flex;
+	margin-top: 20px;
+}
+
+nav .social_links li img{
+	float: left;
+	margin: 5px;
+
+}
+
+.footerText {
+	color: white;
+	text-align: center;
+
+	padding: 0px 0px 20px 0px;
+}
+
+
+
+
+/*-------------Home Page------------------*/
+
+
+
+.hero {
+	background-color: rgba(26, 26, 28, .6);
+	position: relative;
+	top: 0px;
+}
+
+
+/*------Cant figure out how to do overlay
+.overlay {
+	background-color: red;
+	height: 1300px;
+	z-index: 99999;
+}
+---------*/
+
+
+#AboutUs {
+	background-image: url("../images/Control_room_heroBW.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	display: block;
+	margin: 0px;
+	width: 100%;
+	height: 1300px;
+}
+
+.hero #AboutUs h1{
+	margin: 0px 50px 20px 50px;
+	padding-top: 50px;
+	color: 	rgba(241, 228, 178, .8);
+}
+
+
+#AboutUs p{
+	margin: 0px 50px 20px 50px;
+	color: 	#ededed;
+}
+
+#Bio {
+	padding: 100px 0px;
+	background-color: rgba(241, 228, 178, .8);
+}
+
+#Bio h2 {
+	margin: 0px 100px;
+}
+
+#Bio p{
+	margin: 25px 100px 0px 100px;
+}
+
+
+
+
